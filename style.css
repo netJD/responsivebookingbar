@@ -1,0 +1,163 @@
+body {
+  color: #5F5316;
+  background-color: #FFF;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 9px;
+  padding-bottom: 20px;
+  font-family: 'Gill Sans MT';
+  font-weight: normal;
+
+  text-align: left;
+  display: table;
+  width: 100%;
+  /* width: 1034px; centrado */
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
+
+.container-simple {
+  background-color: tomato;
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+
+.container-custom {
+  background-color: #F4E9CD;
+  color: #5F5316;
+  border: 0px solid black;
+  margin: 20px;
+  padding: 20px;
+  height: 90px;
+}
+
+.dtpicker-custom {
+  margin-top: 2px;
+  width: 70%;
+  height: 25px;
+}
+
+.select-option-custom {
+  margin-top: 2px;
+  margin-left: 0px;
+  width: 70%;
+  height: 28px;
+}
+
+.property-div {
+  float: left;
+  width: 17%;
+  height: 100px;
+  border: 0px solid #000000;
+}
+
+.checkindate-div {
+  float: left;
+  width: 17%;
+  height: 100px;
+  border: 0px solid #000000;
+}
+
+.checkoutdate-div {
+  float: left;
+  width: 17%;
+  height: 100px;
+  border: 0px solid #000000;
+}
+
+.availability-div {
+  float: left;
+  width: 15%;
+  height: 100px;
+  border: 0px solid #000000;
+}
+
+.circle-div {
+  float: left;
+  width: 5%;
+  height: 100px;
+  border: 0px solid #000000;
+}
+
+/* special view */
+@media (max-width: 1174px) {
+  .availability-div {
+    float: left;
+    width: 15%;
+    height: 100px;
+    border: 0px solid #000000;
+    margin-top: -15px;
+  }
+  
+  .circle-div {
+    float: left;
+    width: 5%;
+    height: 100px;
+    border: 0px solid #000000;
+    margin-top: -4px;
+  }
+  
+}
+
+/* iphone view landscape*/
+@media (max-width: 684px) {
+
+  .container-custom {
+    background-color: #F4E9CD;
+    color: #5F5316;
+    border: 0px solid black;
+    margin: 20px;
+    padding: 20px;
+    height: 180px;
+  }
+
+  .property-div {
+    float: left;
+    width: 50%;
+    height: 100px;
+    border: 0px solid #000000;
+  }
+
+  .checkindate-div {
+    float: left;
+    width: 50%;
+    height: 100px;
+    border: 0px solid #000000;
+  }
+
+  .checkoutdate-div {
+    float: left;
+    width: 50%;
+    height: 100px;
+    border: 0px solid #000000;
+  }
+
+  .availability-div {
+    float: left;
+    width: 30%;
+    height: 100px;
+    border: 0px solid #000000;
+    margin-top: -10px;
+  }
+  .circle-div {
+    float: left;
+    width: 5%;
+    height: 100px;
+    border: 0px solid #000000;
+    margin-top: -8px;
+  }
+  
+
+}
+
+
+/* iphone view */
+@media (max-width: 375px) {}
